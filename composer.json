@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "nilportugues/json-api": "^2.4",
+        "nilportugues/json-api": "dev-master",
         "symfony/psr-http-message-bridge" : "^0.2|^0.3|^1.0",
         "nilportugues/serializer-eloquent": "~1.0"
     },
@@ -23,6 +23,12 @@
         "phpunit/phpunit": "4.*",
         "friendsofphp/php-cs-fixer": "^1.10"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tooshay/json-api"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "NilPortugues\\Laravel5\\JsonApi\\" : "src/NilPortugues/Laravel5/JsonApi/"
